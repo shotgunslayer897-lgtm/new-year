@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year, My Love</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .intro-message {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            line-height: 1.8;
+            text-align: right;
+            animation: slideUp 1s ease-out;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .memory-section {
+            margin: 40px 0;
+        }
+
+        .memory-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            animation: slideUp 1s ease-out;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .memory-card:nth-child(even) {
+            animation-delay: 0.2s;
+        }
+
+        .memory-title {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .photo-container {
+            width: 100%;
+            max-width: 720px;
+            height: 1280px;
+            margin: 20px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            background: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .memory-text {
+            line-height: 1.8;
+            font-size: 1.1em;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .closing-message {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 50px 0;
+            text-align: center;
+            line-height: 1.8;
+            font-size: 1.2em;
+            animation: fadeIn 2s ease-in;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .hearts {
+            text-align: center;
+            font-size: 2em;
+            margin: 30px 0;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            .memory-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Happy New Year </h1>
+            <p class="subtitle">To the love of my life</p>
+        </header>
+
+        <div class="intro-message">
+            <p>عزيزتي ليديا</p>
+            <br>
+            <p>كل سنة وانتي طيبة
+                <br>
+                كل سنة وانتي بخير
+                <br>
+                كل سنة وانتي حبيبتي
+                <br>
+                السنة طارت اسرع بكتير من المتوقع , بس اتعودت الوقت الحلو معاكي بيطير
+                <br>
+                كانت احسن سنة في حياتي وحبيت كل تفصيلة تخصنا سوا فيها ومعنديش اي ندم علي اي حاجه فيها ولو رجع بيا الزمن لنفس الوقت من سنة هختار اني اعمل نفس الشئ واقولك اني بحبك
+                .</p>
+        </div>
+
+        <div class="memory-section">
+            <!-- Memory 1 -->
+            <div class="memory-card">
+                <h2 class="memory-title">first date - first dream</h2>
+                <div class="photo-container">
+    <img src=c:\Users\yosef\Downloads\5895310391989357077.jpg alt="Memory photo">
+</div>
+                <p class="memory-text">
+                   
+اول مره شوفتك واول مره شوفت احلامي معاكي 
+                  <br>
+                    واول مره احس اني عاوز ادي حد كل الي عندي
+                 </p> 
+            </div>
+
+            <!-- Memory 2 -->
+            <div class="memory-card">
+                <h2 class="memory-title">second date - happiest time of my life</h2>
+                 <div class="photo-container">
+    <img src=c:\Users\yosef\Downloads\5895310391989357087.jpg alt="Memory photo">
+</div>
+                <p class="memory-text">
+                    احلي ايام حياتي 
+                    <br>
+                 كل ثانيه محفوره في ذاكرتي للأبد
+                 <br>
+                 وهفضل بحبك للأبد
+                </p>
+            </div>
+
+            <!-- Memory 3 -->
+            <div class="memory-card">
+                <h2 class="memory-title">third date - hope</h2>
+                <div class="photo-container">
+    <img src=c:\Users\yosef\Downloads\5810092146281876296.jpg alt="Memory photo">
+</div>
+                <p class="memory-text">
+                    كل شك وكل خوف من الفتره الي فاتت اختفي
+                    <br>
+                    كل الي اتبقي هو الامل ,المشاعر الفائضه و حبنا
+                </p>
+            </div>
+
+            <!-- Memory 4 -->
+            <div class="memory-card">
+                <h2 class="memory-title">my love - my sweet girl</h2>
+               <div class="photo-container">
+    <img src=c:\Users\yosef\Downloads\5956191364435348478.jpg alt="Memory photo">
+</div>
+                <p class="memory-text">
+                    مهما قولتلك ومهما عملت مش هقدر اوضحلك قد ايه بحبك
+                    <br>
+               حبيبتي ومفضلتي واحلامي واغلي ما ليا
+                    <br>
+                بحبك
+                </p>
+            </div>
+        </div>
+
+        <div class="closing-message">
+            <p>شكرا علي كل لحظة عشناها سوا سواء السنة دي او الي قبلها والي هيجي بعدين</p>
+            <br>
+            <p>هنبدأ سنة جديدة باحلام جديدة وذكريات كتييير مستنية تتعمل 
+                <br>
+                وهنستغل السنة ونعمل كل الذكريات الممكنة
+            </p>
+            <br>
+            <p>بحبك اكتر من الي تقدر تعبر عنه الكلمات
+                <br>
+                وبتمنالك سنة تكون الاسعد في حياتك 
+                <br>
+                 
+            </p>
+            <br>
+            <p>Forever yours,<br>[يوسف نشأت]</p>
+        </div>
+
+        <div class="hearts">
+            ❤️ 
+        </div>
+    </div>
+</body>
+</html>
